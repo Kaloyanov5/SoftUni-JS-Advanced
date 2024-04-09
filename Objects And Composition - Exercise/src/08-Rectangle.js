@@ -2,7 +2,7 @@ function rectangle(width, height, color){
     return {
         width,
         height,
-        color: `${color.charAt(0).toUpperCase()}${[...color].splice(1, color.length).join("")}`,
+        color: color[0].toUpperCase() + color.slice(1),
         calcArea: function() {
             return this.width * this.height;
         }
