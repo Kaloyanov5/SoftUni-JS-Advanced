@@ -4,14 +4,14 @@ function getSame(number){
     let booleanSame = true;
     const firstNum = numberList[0];
 
-    for (let i = 0; i < numberList.length; i++){
+    for (let i in numberList){
         if (numberList[i] != firstNum){
             booleanSame = false;
             break ;
         }
     }
 
-    for (let i = 0; i < numberList.length; i++){
+    for (let i in numberList){
         sumOfAll += Number(numberList[i]);
     }
 
