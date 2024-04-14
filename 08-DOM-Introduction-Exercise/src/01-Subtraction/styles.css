@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: teal;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+#wrapper input{
+    border: 5px solid teal;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+#result{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
