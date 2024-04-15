@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+article{
+    background-color: darkblue;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#towns{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#towns li{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background-color: aliceblue;
+    color: darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
